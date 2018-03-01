@@ -1,0 +1,47 @@
+
+body {
+    font-family: "Corsiva Hebrew";
+    vertical-align: center;
+    text-align: center;
+    background-color: crimson;
+}
+.currentGrade{
+    text-align: center;
+    margin: auto;
+    font-size:18px;
+}
+#calculate{
+    font-size: 18px;
+    background-color: aqua;
+    padding: 10px 24px;
+    border-radius:12px;
+}
+button {
+    width: 75px;
+    color: darkslategray;
+
+}
+#table {
+    width: 30%;
+    margin: auto;
+}
+
+#content {
+    width: 90%;
+    margin: auto;
+    text-align: center;
+    border: 0px black solid;
+}
+h0{
+    font-size: 36px;
+    font-family: "Marker Felt";
+}
+h1{
+    font-size: 18x;
+    font-family: "Times New Roman";
+}
+h2{
+    font-size: 18x;
+    font-family: "Times New Roman";
+}
+

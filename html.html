@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Grade Calculator</title>
+    <h0>Grade Calculator</h0>
+    <script src="js.js"></script>
+    <link rel="stylesheet" href="css.css"/>
+</head>
+<body>
+<div id="content">
+    <table id="table">
+        <tr>
+            <td>Homework Points<input type="text" id="HomeworkPoints" value="80,90,100" size="25"></td>
+            <td>Homework Weight<input type="text" id="HomeworkWeight" value="20" size="25"></td>
+        </tr>
+        <tr>
+            <td>Classwork Points<input type="text" id="ClassworkPoints" value="80,90,100" size="25"></td>
+            <td>Classwork Weight<input type="text" id="ClassworkWeight" value="20" size="25"></td>
+        </tr>
+        <tr>
+            <td>Assessment Points<input type="text" id="AssessmentPoints" value="80,90,100" size="25"></td>
+            <td>Assessment Weight<input type="text" id="AssessmentWeight" value="20" size="25"></td>
+        </tr>
+        <tr>
+            <td>Participation Points<input type="text" id="ParticipationPoints" value="80,90,100" size="25"></td>
+            <td>Participation Weight<input type="text" id="ParticipationWeight" value="20" size="25"></td>
+        </tr>
+    </table>
+    <br>
+    <div class="currentGrade" id="totalWeight">Total Weights: 100%</div>
+    <button id="calcGrade" onclick="calculateGrade()">Calculate Current Grade</button>
+    <div id="myGrade"></div>
+    <div id=images></div>
+    <h1>Grade Desired</h1>
+        <input type="text" id="gradeRequired" value="90" size="18">
+    <h2>Final Weight</h2>
+        <input type="text" id="finalWeight" value="20" size="25">
+    <br>
+    <br>
+    <button id="myGradeRequired" onclick="calculateFinal()">Calculate Grade Required!</button>
+    <div id="finalGradeRequired"</div>
+</div>
+</body>
+</html>
